@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5621DDC921E330A900E5FB48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDC821E330A900E5FB48 /* AppDelegate.swift */; };
+		5621DDCB21E330A900E5FB48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDCA21E330A900E5FB48 /* ViewController.swift */; };
+		5621DDCE21E330A900E5FB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5621DDCC21E330A900E5FB48 /* Main.storyboard */; };
+		5621DDD021E330AA00E5FB48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5621DDCF21E330AA00E5FB48 /* Assets.xcassets */; };
+		5621DDD321E330AA00E5FB48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5621DDD121E330AA00E5FB48 /* LaunchScreen.storyboard */; };
+		5621DDF621E3322E00E5FB48 /* extension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDDC21E3322D00E5FB48 /* extension_UIView.swift */; };
+		5621DDF721E3322E00E5FB48 /* extension_UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDDD21E3322D00E5FB48 /* extension_UILabel.swift */; };
+		5621DDF821E3322E00E5FB48 /* YiRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDDE21E3322D00E5FB48 /* YiRefresh.swift */; };
+		5621DDF921E3322E00E5FB48 /* extension_Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDDF21E3322D00E5FB48 /* extension_Bundle.swift */; };
+		5621DDFA21E3322E00E5FB48 /* extension_UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDE021E3322D00E5FB48 /* extension_UIScrollView.swift */; };
+		5621DDFB21E3322E00E5FB48 /* YiRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5621DDE121E3322D00E5FB48 /* YiRefresh.bundle */; };
+		5621DDFC21E3322E00E5FB48 /* YiRefreshBackNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDE521E3322D00E5FB48 /* YiRefreshBackNormalFooter.swift */; };
+		5621DDFD21E3322E00E5FB48 /* YiRefreshBackGifFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDE621E3322D00E5FB48 /* YiRefreshBackGifFooter.swift */; };
+		5621DDFE21E3322E00E5FB48 /* YiRefreshBackStateFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDE721E3322D00E5FB48 /* YiRefreshBackStateFooter.swift */; };
+		5621DDFF21E3322E00E5FB48 /* YiRefreshAutoStateFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDE921E3322D00E5FB48 /* YiRefreshAutoStateFooter.swift */; };
+		5621DE0021E3322E00E5FB48 /* YiRefreshAutoGifFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDEA21E3322D00E5FB48 /* YiRefreshAutoGifFooter.swift */; };
+		5621DE0121E3322E00E5FB48 /* YiRefreshAutoNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDEB21E3322D00E5FB48 /* YiRefreshAutoNormalFooter.swift */; };
+		5621DE0221E3322E00E5FB48 /* YiRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDED21E3322D00E5FB48 /* YiRefreshNormalHeader.swift */; };
+		5621DE0321E3322E00E5FB48 /* YiRefreshGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDEE21E3322D00E5FB48 /* YiRefreshGifHeader.swift */; };
+		5621DE0421E3322E00E5FB48 /* YiRefreshStateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDEF21E3322D00E5FB48 /* YiRefreshStateHeader.swift */; };
+		5621DE0521E3322E00E5FB48 /* YiRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDF121E3322D00E5FB48 /* YiRefreshFooter.swift */; };
+		5621DE0621E3322E00E5FB48 /* YiRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDF221E3322D00E5FB48 /* YiRefreshComponent.swift */; };
+		5621DE0721E3322E00E5FB48 /* YiRefreshBackFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDF321E3322E00E5FB48 /* YiRefreshBackFooter.swift */; };
+		5621DE0821E3322E00E5FB48 /* YiRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDF421E3322E00E5FB48 /* YiRefreshHeader.swift */; };
+		5621DE0921E3322E00E5FB48 /* YiRefreshAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621DDF521E3322E00E5FB48 /* YiRefreshAutoFooter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5621DDC521E330A900E5FB48 /* YiRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5621DDC821E330A900E5FB48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5621DDCA21E330A900E5FB48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5621DDCD21E330A900E5FB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5621DDCF21E330AA00E5FB48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5621DDD221E330AA00E5FB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5621DDD421E330AA00E5FB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5621DDDC21E3322D00E5FB48 /* extension_UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_UIView.swift; sourceTree = "<group>"; };
+		5621DDDD21E3322D00E5FB48 /* extension_UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_UILabel.swift; sourceTree = "<group>"; };
+		5621DDDE21E3322D00E5FB48 /* YiRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefresh.swift; sourceTree = "<group>"; };
+		5621DDDF21E3322D00E5FB48 /* extension_Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_Bundle.swift; sourceTree = "<group>"; };
+		5621DDE021E3322D00E5FB48 /* extension_UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_UIScrollView.swift; sourceTree = "<group>"; };
+		5621DDE121E3322D00E5FB48 /* YiRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YiRefresh.bundle; sourceTree = "<group>"; };
+		5621DDE521E3322D00E5FB48 /* YiRefreshBackNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshBackNormalFooter.swift; sourceTree = "<group>"; };
+		5621DDE621E3322D00E5FB48 /* YiRefreshBackGifFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshBackGifFooter.swift; sourceTree = "<group>"; };
+		5621DDE721E3322D00E5FB48 /* YiRefreshBackStateFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshBackStateFooter.swift; sourceTree = "<group>"; };
+		5621DDE921E3322D00E5FB48 /* YiRefreshAutoStateFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshAutoStateFooter.swift; sourceTree = "<group>"; };
+		5621DDEA21E3322D00E5FB48 /* YiRefreshAutoGifFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshAutoGifFooter.swift; sourceTree = "<group>"; };
+		5621DDEB21E3322D00E5FB48 /* YiRefreshAutoNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshAutoNormalFooter.swift; sourceTree = "<group>"; };
+		5621DDED21E3322D00E5FB48 /* YiRefreshNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshNormalHeader.swift; sourceTree = "<group>"; };
+		5621DDEE21E3322D00E5FB48 /* YiRefreshGifHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshGifHeader.swift; sourceTree = "<group>"; };
+		5621DDEF21E3322D00E5FB48 /* YiRefreshStateHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshStateHeader.swift; sourceTree = "<group>"; };
+		5621DDF121E3322D00E5FB48 /* YiRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshFooter.swift; sourceTree = "<group>"; };
+		5621DDF221E3322D00E5FB48 /* YiRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshComponent.swift; sourceTree = "<group>"; };
+		5621DDF321E3322E00E5FB48 /* YiRefreshBackFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshBackFooter.swift; sourceTree = "<group>"; };
+		5621DDF421E3322E00E5FB48 /* YiRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshHeader.swift; sourceTree = "<group>"; };
+		5621DDF521E3322E00E5FB48 /* YiRefreshAutoFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YiRefreshAutoFooter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5621DDC221E330A900E5FB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5621DDBC21E330A900E5FB48 = {
+			isa = PBXGroup;
+			children = (
+				5621DDDA21E3322D00E5FB48 /* YiRefresh */,
+				5621DDC721E330A900E5FB48 /* YiRefreshDemo */,
+				5621DDC621E330A900E5FB48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5621DDC621E330A900E5FB48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDC521E330A900E5FB48 /* YiRefreshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5621DDC721E330A900E5FB48 /* YiRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDC821E330A900E5FB48 /* AppDelegate.swift */,
+				5621DDCA21E330A900E5FB48 /* ViewController.swift */,
+				5621DDCC21E330A900E5FB48 /* Main.storyboard */,
+				5621DDCF21E330AA00E5FB48 /* Assets.xcassets */,
+				5621DDD121E330AA00E5FB48 /* LaunchScreen.storyboard */,
+				5621DDD421E330AA00E5FB48 /* Info.plist */,
+			);
+			path = YiRefreshDemo;
+			sourceTree = "<group>";
+		};
+		5621DDDA21E3322D00E5FB48 /* YiRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDDB21E3322D00E5FB48 /* Current */,
+				5621DDE221E3322D00E5FB48 /* Custom */,
+				5621DDF021E3322D00E5FB48 /* Base */,
+			);
+			path = YiRefresh;
+			sourceTree = "<group>";
+		};
+		5621DDDB21E3322D00E5FB48 /* Current */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDDC21E3322D00E5FB48 /* extension_UIView.swift */,
+				5621DDDD21E3322D00E5FB48 /* extension_UILabel.swift */,
+				5621DDDE21E3322D00E5FB48 /* YiRefresh.swift */,
+				5621DDDF21E3322D00E5FB48 /* extension_Bundle.swift */,
+				5621DDE021E3322D00E5FB48 /* extension_UIScrollView.swift */,
+				5621DDE121E3322D00E5FB48 /* YiRefresh.bundle */,
+			);
+			path = Current;
+			sourceTree = "<group>";
+		};
+		5621DDE221E3322D00E5FB48 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDE321E3322D00E5FB48 /* footer */,
+				5621DDEC21E3322D00E5FB48 /* header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5621DDE321E3322D00E5FB48 /* footer */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDE421E3322D00E5FB48 /* back */,
+				5621DDE821E3322D00E5FB48 /* auto */,
+			);
+			path = footer;
+			sourceTree = "<group>";
+		};
+		5621DDE421E3322D00E5FB48 /* back */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDE521E3322D00E5FB48 /* YiRefreshBackNormalFooter.swift */,
+				5621DDE621E3322D00E5FB48 /* YiRefreshBackGifFooter.swift */,
+				5621DDE721E3322D00E5FB48 /* YiRefreshBackStateFooter.swift */,
+			);
+			path = back;
+			sourceTree = "<group>";
+		};
+		5621DDE821E3322D00E5FB48 /* auto */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDE921E3322D00E5FB48 /* YiRefreshAutoStateFooter.swift */,
+				5621DDEA21E3322D00E5FB48 /* YiRefreshAutoGifFooter.swift */,
+				5621DDEB21E3322D00E5FB48 /* YiRefreshAutoNormalFooter.swift */,
+			);
+			path = auto;
+			sourceTree = "<group>";
+		};
+		5621DDEC21E3322D00E5FB48 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDED21E3322D00E5FB48 /* YiRefreshNormalHeader.swift */,
+				5621DDEE21E3322D00E5FB48 /* YiRefreshGifHeader.swift */,
+				5621DDEF21E3322D00E5FB48 /* YiRefreshStateHeader.swift */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		5621DDF021E3322D00E5FB48 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5621DDF121E3322D00E5FB48 /* YiRefreshFooter.swift */,
+				5621DDF221E3322D00E5FB48 /* YiRefreshComponent.swift */,
+				5621DDF321E3322E00E5FB48 /* YiRefreshBackFooter.swift */,
+				5621DDF421E3322E00E5FB48 /* YiRefreshHeader.swift */,
+				5621DDF521E3322E00E5FB48 /* YiRefreshAutoFooter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5621DDC421E330A900E5FB48 /* YiRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5621DDD721E330AA00E5FB48 /* Build configuration list for PBXNativeTarget "YiRefreshDemo" */;
+			buildPhases = (
+				5621DDC121E330A900E5FB48 /* Sources */,
+				5621DDC221E330A900E5FB48 /* Frameworks */,
+				5621DDC321E330A900E5FB48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiRefreshDemo;
+			productName = YiRefreshDemo;
+			productReference = 5621DDC521E330A900E5FB48 /* YiRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5621DDBD21E330A900E5FB48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "史晓义";
+				TargetAttributes = {
+					5621DDC421E330A900E5FB48 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5621DDC021E330A900E5FB48 /* Build configuration list for PBXProject "YiRefreshDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5621DDBC21E330A900E5FB48;
+			productRefGroup = 5621DDC621E330A900E5FB48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5621DDC421E330A900E5FB48 /* YiRefreshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5621DDC321E330A900E5FB48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5621DDD321E330AA00E5FB48 /* LaunchScreen.storyboard in Resources */,
+				5621DDFB21E3322E00E5FB48 /* YiRefresh.bundle in Resources */,
+				5621DDD021E330AA00E5FB48 /* Assets.xcassets in Resources */,
+				5621DDCE21E330A900E5FB48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5621DDC121E330A900E5FB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5621DE0421E3322E00E5FB48 /* YiRefreshStateHeader.swift in Sources */,
+				5621DE0621E3322E00E5FB48 /* YiRefreshComponent.swift in Sources */,
+				5621DDFD21E3322E00E5FB48 /* YiRefreshBackGifFooter.swift in Sources */,
+				5621DDFA21E3322E00E5FB48 /* extension_UIScrollView.swift in Sources */,
+				5621DDF721E3322E00E5FB48 /* extension_UILabel.swift in Sources */,
+				5621DE0721E3322E00E5FB48 /* YiRefreshBackFooter.swift in Sources */,
+				5621DE0821E3322E00E5FB48 /* YiRefreshHeader.swift in Sources */,
+				5621DE0221E3322E00E5FB48 /* YiRefreshNormalHeader.swift in Sources */,
+				5621DDFE21E3322E00E5FB48 /* YiRefreshBackStateFooter.swift in Sources */,
+				5621DE0321E3322E00E5FB48 /* YiRefreshGifHeader.swift in Sources */,
+				5621DDF921E3322E00E5FB48 /* extension_Bundle.swift in Sources */,
+				5621DE0121E3322E00E5FB48 /* YiRefreshAutoNormalFooter.swift in Sources */,
+				5621DE0521E3322E00E5FB48 /* YiRefreshFooter.swift in Sources */,
+				5621DDF821E3322E00E5FB48 /* YiRefresh.swift in Sources */,
+				5621DDFC21E3322E00E5FB48 /* YiRefreshBackNormalFooter.swift in Sources */,
+				5621DE0921E3322E00E5FB48 /* YiRefreshAutoFooter.swift in Sources */,
+				5621DDF621E3322E00E5FB48 /* extension_UIView.swift in Sources */,
+				5621DDCB21E330A900E5FB48 /* ViewController.swift in Sources */,
+				5621DDC921E330A900E5FB48 /* AppDelegate.swift in Sources */,
+				5621DE0021E3322E00E5FB48 /* YiRefreshAutoGifFooter.swift in Sources */,
+				5621DDFF21E3322E00E5FB48 /* YiRefreshAutoStateFooter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5621DDCC21E330A900E5FB48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5621DDCD21E330A900E5FB48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5621DDD121E330AA00E5FB48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5621DDD221E330AA00E5FB48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5621DDD521E330AA00E5FB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5621DDD621E330AA00E5FB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5621DDD821E330AA00E5FB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WF2Q7D4RJ;
+				INFOPLIST_FILE = YiRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.YiRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5621DDD921E330AA00E5FB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WF2Q7D4RJ;
+				INFOPLIST_FILE = YiRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.YiRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5621DDC021E330A900E5FB48 /* Build configuration list for PBXProject "YiRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5621DDD521E330AA00E5FB48 /* Debug */,
+				5621DDD621E330AA00E5FB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5621DDD721E330AA00E5FB48 /* Build configuration list for PBXNativeTarget "YiRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5621DDD821E330AA00E5FB48 /* Debug */,
+				5621DDD921E330AA00E5FB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5621DDBD21E330A900E5FB48 /* Project object */;
+}

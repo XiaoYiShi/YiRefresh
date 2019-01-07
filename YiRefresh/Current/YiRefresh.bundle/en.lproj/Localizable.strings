@@ -1,0 +1,18 @@
+"YiRefresh_HeaderText_Idle"         = "Pull down to refresh";
+"YiRefresh_HeaderText_Pulling"      = "Release to refresh";
+"YiRefresh_HeaderText_Refreshing"   = "Loading...";
+
+"YiRefresh_AutoFooterText_Idle"         = "Tap or pull up to load more";
+"YiRefresh_AutoFooterText_Refreshing"   = "Loading...";
+"YiRefresh_AutoFooterText_NoMoreData"   = "No more data";
+
+"YiRefresh_BackFooterText_Idle"         = "Pull up to load more";
+"YiRefresh_BackFooterText_Pulling"      = "Release to load more.";
+"YiRefresh_BackFooterText_Refreshing"   = "Loading...";
+"YiRefresh_BackFooterText_NoMoreData"   = "No more data";
+
+"YiRefresh_HeaderText_LastTime"     = "Last update:";
+"YiRefresh_HeaderText_DateToday"    = "Today";
+"YiRefresh_HeaderText_NoneLastDate" = "No record";
+
+
