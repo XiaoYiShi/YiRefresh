@@ -108,6 +108,7 @@
 		5621DDDA21E3322D00E5FB48 /* YiRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				5621DDE121E3322D00E5FB48 /* YiRefresh.bundle */,
 				5621DDDB21E3322D00E5FB48 /* Current */,
 				5621DDE221E3322D00E5FB48 /* Custom */,
 				5621DDF021E3322D00E5FB48 /* Base */,
@@ -123,7 +124,6 @@
 				5621DDDE21E3322D00E5FB48 /* YiRefresh.swift */,
 				5621DDDF21E3322D00E5FB48 /* extension_Bundle.swift */,
 				5621DDE021E3322D00E5FB48 /* extension_UIScrollView.swift */,
-				5621DDE121E3322D00E5FB48 /* YiRefresh.bundle */,
 			);
 			path = Current;
 			sourceTree = "<group>";
@@ -131,49 +131,17 @@
 		5621DDE221E3322D00E5FB48 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				5621DDE321E3322D00E5FB48 /* footer */,
-				5621DDEC21E3322D00E5FB48 /* header */,
-			);
-			path = Custom;
-			sourceTree = "<group>";
-		};
-		5621DDE321E3322D00E5FB48 /* footer */ = {
-			isa = PBXGroup;
-			children = (
-				5621DDE421E3322D00E5FB48 /* back */,
-				5621DDE821E3322D00E5FB48 /* auto */,
-			);
-			path = footer;
-			sourceTree = "<group>";
-		};
-		5621DDE421E3322D00E5FB48 /* back */ = {
-			isa = PBXGroup;
-			children = (
 				5621DDE521E3322D00E5FB48 /* YiRefreshBackNormalFooter.swift */,
 				5621DDE621E3322D00E5FB48 /* YiRefreshBackGifFooter.swift */,
 				5621DDE721E3322D00E5FB48 /* YiRefreshBackStateFooter.swift */,
-			);
-			path = back;
-			sourceTree = "<group>";
-		};
-		5621DDE821E3322D00E5FB48 /* auto */ = {
-			isa = PBXGroup;
-			children = (
+				5621DDED21E3322D00E5FB48 /* YiRefreshNormalHeader.swift */,
+				5621DDEE21E3322D00E5FB48 /* YiRefreshGifHeader.swift */,
+				5621DDEF21E3322D00E5FB48 /* YiRefreshStateHeader.swift */,
 				5621DDE921E3322D00E5FB48 /* YiRefreshAutoStateFooter.swift */,
 				5621DDEA21E3322D00E5FB48 /* YiRefreshAutoGifFooter.swift */,
 				5621DDEB21E3322D00E5FB48 /* YiRefreshAutoNormalFooter.swift */,
 			);
-			path = auto;
-			sourceTree = "<group>";
-		};
-		5621DDEC21E3322D00E5FB48 /* header */ = {
-			isa = PBXGroup;
-			children = (
-				5621DDED21E3322D00E5FB48 /* YiRefreshNormalHeader.swift */,
-				5621DDEE21E3322D00E5FB48 /* YiRefreshGifHeader.swift */,
-				5621DDEF21E3322D00E5FB48 /* YiRefreshStateHeader.swift */,
-			);
-			path = header;
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		5621DDF021E3322D00E5FB48 /* Base */ = {
