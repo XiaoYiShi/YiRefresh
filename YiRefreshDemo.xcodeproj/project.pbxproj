@@ -78,7 +78,7 @@
 		5621DDBC21E330A900E5FB48 = {
 			isa = PBXGroup;
 			children = (
-				5621DDDA21E3322D00E5FB48 /* YiRefresh */,
+				5621DDDA21E3322D00E5FB48 /* YiPullRefresh */,
 				5621DDC721E330A900E5FB48 /* YiRefreshDemo */,
 				5621DDC621E330A900E5FB48 /* Products */,
 			);
@@ -105,7 +105,7 @@
 			path = YiRefreshDemo;
 			sourceTree = "<group>";
 		};
-		5621DDDA21E3322D00E5FB48 /* YiRefresh */ = {
+		5621DDDA21E3322D00E5FB48 /* YiPullRefresh */ = {
 			isa = PBXGroup;
 			children = (
 				5621DDE121E3322D00E5FB48 /* YiRefresh.bundle */,
@@ -113,7 +113,7 @@
 				5621DDE221E3322D00E5FB48 /* Custom */,
 				5621DDF021E3322D00E5FB48 /* Base */,
 			);
-			path = YiRefresh;
+			path = YiPullRefresh;
 			sourceTree = "<group>";
 		};
 		5621DDDB21E3322D00E5FB48 /* Current */ = {
