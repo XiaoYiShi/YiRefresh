@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "YiRefresh"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "pull-to-refresh"
 
 
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
 
   s.author             = { "XiaoYiShi" => "1270654114@qq.com" }
 
-#s.platform     = :ios, "9.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-   s.ios.deployment_target = "9.0"
+  # s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
 
 
   s.requires_arc = true
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
